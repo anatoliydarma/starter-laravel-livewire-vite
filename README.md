@@ -17,7 +17,7 @@
 -   phpmyadmin
 -   mailhog
 
-## Including packages in prod
+## Included packages in prod
 
 -   grkamil/laravel-telegram-logging
 -   phattarachai/laravel-mobile-detect
@@ -26,14 +26,10 @@
 -   spatie/laravel-login-link
 -   usernotnull/tall-toasts
 
-## Including packages in dev
+## Included packages in dev
 
 -   orangehill/iseed
 -   barryvdh/laravel-debugbar
 -   beyondcode/laravel-query-detector
 
 The development server will run inside the container. To install dependencies, use `sail npm ci`. Then `sail npm run dev` to start the server.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
