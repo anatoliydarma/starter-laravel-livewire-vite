@@ -10,7 +10,7 @@
 -   [Vite](https://vitejs.dev/)
 -   [Sail (Docker)](https://laravel.com/docs/9.x/sail)
 
-## Specifications
+## Environments
 
 -   php 8.1
 -   mysql 8.0
