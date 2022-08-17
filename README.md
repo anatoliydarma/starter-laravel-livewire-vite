@@ -4,16 +4,20 @@
 -   [Livewire](https://laravel-livewire.com/)
 -   [Alpine.js](https://alpinejs.dev/)
 -   [Tailwind](https://tailwindcss.com/)
--   [Vite](https://vitejs.dev/)
 
-## Including Sail (Docker).
+## Tools
+
+-   [Vite](https://vitejs.dev/)
+-   [Sail (Docker)](https://laravel.com/docs/9.x/sail)
+
+## Specifications
 
 -   php 8.1
 -   mysql 8.0
 -   phpmyadmin
 -   mailhog
 
-## Including prod packages
+## Including packages in prod
 
 -   grkamil/laravel-telegram-logging
 -   phattarachai/laravel-mobile-detect
@@ -22,7 +26,7 @@
 -   spatie/laravel-login-link
 -   usernotnull/tall-toasts
 
-## Including dev packages
+## Including packages in dev
 
 -   orangehill/iseed
 -   barryvdh/laravel-debugbar
