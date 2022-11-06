@@ -24,7 +24,7 @@
         <x-layouts.dashboard.navbar />
         <x-layouts.dashboard.sidebar />
         <main :class="{ 'sm:pl-60': sidebar, 'sm:pl-0': !sidebar }" class="flex flex-col w-full transition-all duration-300 sm:pl-60 md:flex-row md:min-h-screen">
-            <div class="w-full max-w-screen-md px-4 py-10 text-gray-600 lg:px-10 md:max-w-full">
+            <div class="w-full max-w-screen-md px-4 py-10 text-slate-600 lg:px-10 md:max-w-full">
                 {{ $slot }}
             </div>
         </main>

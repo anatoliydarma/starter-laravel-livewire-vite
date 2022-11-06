@@ -3,7 +3,7 @@
     <div class="flex flex-col items-stretch justify-between h-full">
         <div class="flex flex-col flex-shrink-0 w-full">
             <div class="flex items-center justify-center px-8 py-3 text-center">
-                <a href="/" class="text-lg font-semibold text-slate-400 hover:text-slate-500 focus:outline-none focus:ring">BnB</a>
+                <a href="/" class="text-lg font-semibold text-slate-400 hover:text-slate-500 focus:outline-none focus:ring">SaaS</a>
             </div>
 
             <nav class="flex-grow md:block md:overflow-y-auto ">
@@ -18,7 +18,7 @@
                 </a>
 
                 <a class="flex justify-start items-center px-4 py-3  hover:bg-slate-300  {{ request()->routeIs('dashboard.maintenance') ? 'bg-slate-300/50' : '' }}" href="{{ route('dashboard.maintenance') }}">
-                    <x-tabler-users class="w-6 h-6" />
+                    <x-tabler-settings class="w-6 h-6" />
                     <span class="mx-4">Maintenance</span>
                 </a>
             </nav>

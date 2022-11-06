@@ -82,7 +82,7 @@ Users
         <div>
             <x-overflow-bg />
 
-            <x-dashboard.modal>
+            <x-dashboard.modal-side>
                 <div class="px-8 py-12 overflow-y-auto md:px-12">
 
                     <x-loader wire:target="openForm, remove" />
@@ -111,7 +111,7 @@ Users
                         </x-button>
                     </div>
                 </div>
-            </x-dashboard.modal>
+            </x-dashboard.modal-side>
         </div>
 
         <div class="flex flex-col items-center gap-4 lg:flex-row">

@@ -52,15 +52,8 @@ return [
     'channels' => [
         'stack' => [
             'driver' => 'daily',
-            'channels' => ['single'],
-            // 'channels' => ['single', 'telegram'],
+            'channels' => ['single', 'slack'],
             'ignore_exceptions' => false,
-        ],
-
-        'telegram' => [
-            'driver' => 'custom',
-            'via' => Logger\TelegramLogger::class,
-            'level' => 'debug',
         ],
 
         'single' => [

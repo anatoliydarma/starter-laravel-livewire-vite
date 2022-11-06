@@ -5,11 +5,11 @@ Maintenance
 
     <div class="flex items-center justify-start pb-6 space-x-4">
         <div>
-            <a title="back" href="javascript:%20history.go(-1)" class="text-gray-300 hover:text-gray-500">
+            <a title="back" href="javascript:%20history.go(-1)" class="text-slate-300 hover:text-slate-500">
                 <x-tabler-arrow-left class="w-6 h-6" />
             </a>
         </div>
-        <h3 class="text-xl font-bold text-gray-500">Maintenance</h3>
+        <h3 class="text-xl font-bold text-slate-500">Maintenance</h3>
     </div>
 
 

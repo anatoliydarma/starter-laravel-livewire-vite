@@ -12,7 +12,7 @@
     @vite(['resources/css/web.css', 'resources/js/web.js'])
 </head>
 <body>
-    <div class="font-sans text-gray-900 antialiased">
+    <div class="font-sans text-slate-900 antialiased">
         {{ $slot }}
     </div>
     @livewireScripts

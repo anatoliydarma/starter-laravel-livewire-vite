@@ -3,31 +3,31 @@
 @tailwind utilities;
 
 button:active {
-    @apply scale-95;
+	@apply scale-95;
 }
 
 .hover,
 .hover svg {
-    @apply relative z-10 block outline-none;
+	@apply relative z-10 block outline-none;
 }
 
 .hover:after {
-    content: "";
-    @apply absolute top-0 bottom-0 z-0 m-auto rounded-full opacity-0 bg-gray-100;
-    left: -11px;
-    right: -11px;
-    z-index: -1;
-    height: 36px;
-    width: 36px;
-    -webkit-transform: scale(0.3);
-    transform: scale(0.3);
-    -webkit-transition: 0.3s ease;
-    transition: 0.3s ease;
+	content: '';
+	@apply absolute top-0 bottom-0 z-0 m-auto rounded-full opacity-0 bg-slate-100;
+	left: -11px;
+	right: -11px;
+	z-index: -1;
+	height: 36px;
+	width: 36px;
+	-webkit-transform: scale(0.3);
+	transform: scale(0.3);
+	-webkit-transition: 0.3s ease;
+	transition: 0.3s ease;
 }
 
 .hover:hover:after {
-    opacity: 1;
-    -webkit-transform: scale(1);
-    transform: scale(1);
-    z-index: 1;
+	opacity: 1;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	z-index: 1;
 }
