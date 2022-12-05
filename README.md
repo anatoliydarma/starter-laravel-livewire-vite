@@ -19,6 +19,7 @@
 
 ## Included packages in prod
 
+-   opcodesio/log-viewer
 -   laravel-at/laravel-image-sanitize
 -   hammerstone/fast-paginate
 -   phattarachai/laravel-mobile-detect

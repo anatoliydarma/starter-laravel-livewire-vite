@@ -18,13 +18,13 @@
     @stack('header')
 </head>
 
-<body class="w-full min-h-screen overflow-x-hidden font-sans antialiased bg-slate-100">
+<body class="bg-slate-100 w-full min-h-screen overflow-x-hidden font-sans antialiased">
 
-    <div x-cloak x-data="{ sidebar: $persist(true), sidebarWindow: new TouchSweep(sidebarWindow) }" x-init="window.innerWidth <= 768 ? sidebar = false : sidebar = true" class="relative flex items-start ">
+    <div x-cloak x-data="{ sidebar: $persist(true)}" x-init="window.innerWidth <= 768 ? sidebar = false : sidebar = true" class=" relative flex items-start">
         <x-layouts.dashboard.navbar />
         <x-layouts.dashboard.sidebar />
-        <main :class="{ 'sm:pl-60': sidebar, 'sm:pl-0': !sidebar }" class="flex flex-col w-full transition-all duration-300 sm:pl-60 md:flex-row md:min-h-screen">
-            <div class="w-full max-w-screen-md px-4 py-10 text-slate-600 lg:px-10 md:max-w-full">
+        <main :class="{ 'sm:pl-60': sidebar, 'sm:pl-0': !sidebar }" class="sm:pl-60 md:flex-row md:min-h-screen flex flex-col w-full transition-all duration-300">
+            <div class="text-slate-600 lg:px-10 md:max-w-full w-full max-w-screen-md px-4 py-10">
                 {{ $slot }}
             </div>
         </main>

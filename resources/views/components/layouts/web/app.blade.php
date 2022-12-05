@@ -14,7 +14,7 @@
 
 </head>
 <body class="font-sans antialiased">
-    <div class="min-h-screen bg-slate-100">
+    <div class="bg-slate-100 min-h-screen">
 
         <x-layouts.web.navigation />
 
